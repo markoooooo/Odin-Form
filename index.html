@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Odin Forms</title>
+  </head>
+  <body>
+    <!-- ***** Section Left ***** -->
+    <section class="left">
+      <div class="background">
+        <div class="overlay">
+          <img src="/img/odin-logo.png" alt="" />
+          <h1>Odin</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Section Right ***** -->
+    <section class="right">
+      <!-- ***** Top ***** -->
+      <div class="top">
+        <div class="text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started
+          </p>
+          <p>You <span>know</span> you want to.</p>
+        </div>
+      </div>
+
+      <!-- ***** Mid ***** -->
+      <div class="mid">
+        <div class="container">
+          <h3>Let's do this!</h3>
+          <form action="#" method="get">
+            <div class="form-container">
+              <div class="left">
+                <div class="form-group">
+                  <label for="name">First name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Thor"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
+              </div>
+              <div class="right">
+                <div class="form-group">
+                  <label for="last-name">Last name</label>
+                  <input type="text" name="last-name" id="last-name" />
+                </div>
+                <div class="form-group">
+                  <label for="number">Phone number</label>
+                  <input type="number" name="number" id="number" />
+                </div>
+                <div class="form-group">
+                  <label for="re-password">Confirm password</label>
+                  <input type="password" name="re-password" id="re-password" />
+                </div>
+              </div>
+            </div>
+
+            <!-- ***** Bottom  ***** -->
+            <section class="bottom">
+              <div class="bottom-container">
+                <button class="btn" type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+              </div>
+            </section>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
